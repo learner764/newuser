@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-style: italic; */
+    font-family: sans-serif;
+    background: #0e2cd880;
+}
+
+.class1{
+    margin:30px;
+    width:300px;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.class2{
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #410486da;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.class2 label[for="email"],.class2 label[for="usertype"],.class2 label[for="phone"],.class2 label[for="psw"],.class2 label[for="pswr"]{
+    color:white;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.class3 h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.class2 input[type="email"],.class2 input[type="tel"],.class2 input[type="password"],.class2 input[type="password"]{
+    border: 0;
+    color:black;
+    background:rgb(255, 255, 255);
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #1ece27;
+    padding: 10px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.class2 input[type="email"]:focus,.class2 input[type="tel"]:focus,.class2 input[type="password"]:focus,.class2 input[type="password"]:focus{
+    width: 250px;
+    border-color: rgb(255, 0, 0);
+}
+
+
+.class2 input[type="submit"]{
+    border: 0;
+    background: #2e61ee;;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #dd3030;
+    padding: 14px 10px;
+    width: 120px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;  
+    cursor: pointer;  
+}
+
+.class2 input[type="submit"]:hover{
+    background: #dd3030;
+}
+
+
+.class4{
+    margin-top: 10px;
+    text-align: left;
+}
+.class4 a:link{
+    color:white;
+}
+.class4 a:visited{
+    color:rgb(59, 218, 59);
+}
+
+.class4 a:hover{
+    color:black;
+}
+.class4 a:active{
+    color:rgb(236, 236, 113);
+}

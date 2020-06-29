@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Register to SportsKatta</title>
+        <link rel="stylesheet" href="newuser.css">
+    </head>
+    <body>
+        <div class="class1"><h1>SportsKatta</h1></div>
+        <form class="class2" action="newuser.php" method="POST">
+            <div class="class3"><h1>Register</h1></div>
+            <label for="email"><b>Email</b></label>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <label for="phone"><b>Phone Number</b></label>
+            <input type="tel" name="phone" placeholder="Enter phone no." required>
+            <label for="usertype"><b>Select user type</b></label><br>
+            <input type="radio" name="usertype" value="Normal">Normal User
+            <input type="radio" name="usertype" value="Administrative">Administrative User<br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" name="psw" placeholder="Enter password" required>
+            <label for="pswr"><b>Password</b></label>
+            <input type="password" name="pswr" placeholder="Re-enter password" required>
+            <input type="submit" name="submit" value="Sign In">
+            <div class="class4"><a href="login.html">Already a user? Log in</a></div>
+        </form>
+    </body>
+</html>
